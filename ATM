@@ -1,0 +1,13 @@
+public class main{
+    public static void main (String[]args){
+        Scanner in = new Scanner (System.in);
+        System.out.println("..Welcome to ICICI Bank ATM...");
+        System.out.prinln("Enter the amount to withdraw");
+        int amount = in.nextInt();
+        System.out.println("Enter the pin");
+        int pin = in.nextInt();
+        System.out.println("Thanks for using ICICI Bank ATM");
+        System.out.println("Amount you have withdraw is:" "+amount");
+        in.close();
+    }
+}
